@@ -15,3 +15,12 @@ insert into autorizador (nome) values ('Rede');
 insert into autorizador (nome) values ('Safra');
 insert into autorizador (nome) values ('Stone');
 insert into autorizador (nome) values ('Bin');
+
+insert into issuer (codigo, id_autorizador, id_produto) values ('CL01', 1, 1);
+insert into issuer (codigo, id_autorizador, id_produto) values ('CL02', 1, 2);
+insert into issuer (codigo, id_autorizador, id_produto) values ('CL03', 1, 3);
+insert into issuer (codigo, id_autorizador, id_produto) values ('CL04', 1, 4);
+insert into issuer (codigo, id_autorizador, id_produto) values ('RD01', 2, 1);
+insert into issuer (codigo, id_autorizador, id_produto) values ('RD02', 2, 2);
+insert into issuer (codigo, id_autorizador, id_produto) values ('RD03', 2, 3);
+insert into issuer (codigo, id_autorizador, id_produto) values ('RD04', 2, 4);
