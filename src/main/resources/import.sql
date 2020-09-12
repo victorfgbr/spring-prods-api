@@ -9,3 +9,9 @@ insert into produto (id_bandeira, id_tipo, nome) values (1, 1, 'Visa Credito');
 insert into produto (id_bandeira, id_tipo, nome) values (1, 2, 'Visa Eletron');
 insert into produto (id_bandeira, id_tipo, nome) values (2, 1, 'Master');
 insert into produto (id_bandeira, id_tipo, nome) values (2, 2, 'Maestro');
+
+insert into autorizador (nome) values ('Cielo');
+insert into autorizador (nome) values ('Rede');
+insert into autorizador (nome) values ('Safra');
+insert into autorizador (nome) values ('Stone');
+insert into autorizador (nome) values ('Bin');
