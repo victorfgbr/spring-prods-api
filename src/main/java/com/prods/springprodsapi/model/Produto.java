@@ -18,8 +18,8 @@ import lombok.Data;
 public class Produto {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	@Column(name = "id_produto")
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	public Long id;
 
 	@ManyToOne()
